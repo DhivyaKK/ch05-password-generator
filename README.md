@@ -14,7 +14,9 @@ for the value to be between the range 8-1288 characters.
 5. A confirmation is prompted to include special characters. A click on option 'OK' records it as a YES and click on option 'Cancel' records it as a NO.
 6. A confirmation is prompted to include numeric values. A click on option 'OK' records it as a YES and click on option 'Cancel' records it as a NO.
 7. Following the last prompt, a password of chosen length is displayed in the text label.
-8. To generat another password, repeat from step 1 onwards.
+8. To generate another password, repeat from step 1 onwards.
+
+Please find below the screenshot of the GUI.
 
 ![Alt text](image.png)
 
@@ -24,9 +26,10 @@ The JavaScript project focusses on the use of concepts like functions, objects ,
 
 ## Usage
 
-The code for this project is available in GitHub at : 
+Github published URL: 
 
-The demo of the project is available at : 
+Github code is available at : https://github.com/DhivyaKK/ch05-password-generator.git
+
 
 ## License
 
