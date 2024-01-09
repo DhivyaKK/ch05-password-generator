@@ -101,14 +101,17 @@ function getPasswordOptions() {
   let passwordLength = parseInt(
     prompt("Enter the password length between 8 and 128 characters")
   );
-
-  if (
-    userSelectedOptions.passwordLength < 8 ||
-    userSelectedOptions.passwordLength > 128
-  ) {
-    alert("Enter the password length between 8 and 128 characters");
-    return;
+    
+  alert(passwordLength)
+  if (passwordLength !=NaN || (passwordLength < 8 || passwordLength > 128) )
+  {
+    passwordLength = parseInt(
+      prompt("Enter the password33 length between 8 and 128 characters")
+    );
+    
+    
   }
+  else{
 
   userSelectedOptions.hasUpperCase = confirm(
     "Do you want atleast 1 UPPERCASE character in password?"
@@ -132,7 +135,7 @@ function getPasswordOptions() {
     alert("Choose atleast 1 character type");
     return;
   }
-
+  }
   return passwordLength;
 }
 
